@@ -1,77 +1,33 @@
 # Walmart-Data-Analysis-and-Cleaning-SQL-Project
-Overview
-SQL-based project simulating a hospital management system. Includes database schema design with primary and foreign keys, data insertion, and analytical queries using joins, subqueries, CTEs, window functions, and CASE statements.
+SQL project simulating a hospital management system. Covers database design, data insertion, and analytical querying.
 
-Database Tables
-hospitals
-
-doctors
-
-patients
-
-appointments
-
-departments
-
-medications
-
-prescriptions
-
-rooms
-
+Project Structure
 Part 1: Database Setup
-Create tables with appropriate data types
 
-Define primary keys and foreign key constraints
+Create schema and tables with primary and foreign keys
 
-Insert data from project_data.sql
+Insert data from provided project_data.sql file
 
-Validate referential integrity
+Establish referential integrity across eight tables: hospitals, doctors, patients, appointments, departments, medications, prescriptions, rooms
 
 Part 2: SQL Queries
-Basic Queries:
 
-Patients born after 2000
+Basic queries: patient filtering, appointment counts, doctor-hospital relationships
 
-Prescriptions by patient
+Advanced queries: age-group classification using CASE, patients without prescriptions, latest appointment per patient, 3rd most prescribed medication, hospitals with lowest doctor count, department with second largest room capacity per hospital
 
-Appointments per month
+Repository Files
+schema.sql – CREATE TABLE statements with primary and foreign key constraints
 
-Doctors with hospital names
+insert_data.sql – INSERT statements for populating all tables
 
-Patients with multiple appointments
+queries_part1.sql – Basic queries for initial analysis
 
-Advanced Queries:
+queries_part2.sql – Advanced queries using CTEs, window functions, and CASE logic
 
-Age-group classification (Pediatric, Adult, Geriatric)
-
-Patients without prescriptions
-
-Latest appointment per patient
-
-3rd most prescribed medication
-
-Hospitals with lowest doctor count
-
-Department with second largest room capacity per hospital
-
-Skills Demonstrated
-Relational database design
-
-Primary and foreign key implementation
-
+Skills Covered
+Relational schema design with primary and foreign keys
 Joins, subqueries, CTEs, window functions
-
-Conditional logic with CASE
-
+Conditional logic with CASE statements
 Data aggregation and filtering
 
-Tools
-SQL (PostgreSQL, MySQL, or similar)
-
-Files
-File	Description
-schema.sql	Table creation with constraints
-insert_data.sql	 Data insertion
-queries_part1.sql	 Basic queries
-queries_part2.sql	 Advanced queries
